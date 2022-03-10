@@ -19,7 +19,7 @@ import { Car } from '../../components/Car';
 import { LoadAnimated } from '../../components/LoadAnimated';
 
 import { CarDTO } from '../../dtos/CarDTO';
-import api from '../../services/api';
+import {api} from '../../services/api';
 
 import {
     Container,

@@ -16,7 +16,7 @@ import { ImageSlider } from '../../components/ImageSlider';
 import { Accessory } from '../../components/Accessory';
 import { Button } from '../../components/Button';
 
-import api from '../../services/api';
+import {api} from '../../services/api';
 
 import {
     Container,

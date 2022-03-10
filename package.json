@@ -6,19 +6,23 @@
     "web": "expo start --web",
     "start": "react-native start",
     "test": "jest",
-    "api": "json-server ./src/services/server.json --host 192.168.1.103 --port 3333 --delay 700"
+    "api": "json-server ./src/services/server.json --host 192.168.10.7 --port 3333 --delay 700"
   },
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.17.2",
     "@expo-google-fonts/archivo": "^0.1.0",
     "@expo-google-fonts/inter": "^0.1.0",
+    "@nozbe/watermelondb": "^0.24.0",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.2.0",
     "@react-navigation/native": "^5.9.4",
-    "@react-navigation/stack": "^5.14.5",
+    "@react-navigation/native-stack": "^6.5.0",
     "axios": "^0.21.1",
     "date-fns": "^2.22.1",
     "expo": "~41.0.1",
     "expo-app-loading": "^1.0.3",
     "expo-font": "~9.1.0",
+    "expo-image-picker": "~10.1.4",
     "expo-splash-screen": "~0.10.2",
     "expo-updates": "~0.5.4",
     "lottie-react-native": "3.5.0",
@@ -35,7 +39,8 @@
     "react-native-svg": "^12.1.1",
     "react-native-unimodules": "~0.13.3",
     "react-native-web": "~0.13.12",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
